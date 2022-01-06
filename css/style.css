@@ -1,0 +1,481 @@
+/* body{
+   background-color: aqua; // je verifie que mon css est bien relié
+
+} */
+.menu{
+   min-height: 500px;
+   text-align: center;
+   border: solid 2px black;
+   background-image: url("background.jpg"); 
+   /* ici j'ai préféré mettre l'image dans le dossier css pour le chemin */
+   background-repeat: no-repeat;
+   margin: auto 0px;
+   background-size: cover;
+   margin: 40px;
+   position: relative;
+
+}
+
+h1,p{
+    color: white;
+}
+.fas{
+    line-height: 200px;
+    cursor: pointer;
+}
+
+.texte1{
+    color: black;
+    text-align: center;
+   
+}
+.texte2{
+    color: black;
+    text-align: center;
+}
+.texte3{
+    color: black;
+    text-align: center;
+}
+.texte4{
+    color: black;
+    text-align: center;
+}
+
+.resultat{
+    color: black;
+
+}
+main{
+   margin: 0 15%;
+
+}
+
+
+.peugeot{
+    display: flex;
+}
+
+.audi{
+    display: flex;
+}
+
+.opel{
+    display: flex;
+}
+
+.ford{
+    display: flex;
+}
+
+button{
+    background-color: green;
+    margin: 0 auto;
+    display: block;
+
+}
+
+
+/* footer*/
+.agence {
+    width: 10%;
+    height: 30%; 
+    display: flex;
+    justify-content: center;
+}
+
+.fin{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+aside{display:none;} /* Ici, on n'affiche pas l'<aside> */
+
+
+/* responsive ---------------------------------------------------------*/
+
+@media (min-width: 576px){
+    .menu{
+        min-height: 500px;
+        text-align: center;
+        border: solid 2px black;
+        background-image: url("background.jpg");
+        background-repeat: no-repeat;
+        margin: auto 0px;
+        background-size: cover;
+        margin: 40px;
+        position: relative;
+     
+        
+     
+     
+     }
+     
+     h1,p{
+         color: white;
+     }
+     .fas{
+         line-height: 200px;
+         cursor: pointer;
+     }
+     
+     
+     
+     .texte1{
+         color: black;
+         text-align: center;
+        
+     }
+     .texte2{
+         color: black;
+         text-align: center;
+     }
+     .texte3{
+         color: black;
+         text-align: center;
+     }
+     .texte4{
+         color: black;
+         text-align: center;
+     }
+     
+     .resultat{
+         color: black;
+     
+     }
+     main{
+        margin: 0 15%;
+     
+     }
+     
+     
+     .peugeot{
+         display: flex;
+     }
+     
+     .audi{
+         display: flex;
+     }
+     
+     .opel{
+         display: flex;
+     }
+     
+     .ford{
+         display: flex;
+     }
+     
+     button{
+         background-color: green;
+         margin: 0 auto ;
+         display: block;
+     
+     }
+     
+     
+     /* footer*/
+     .agence {
+         width: 10%;
+         height: 30%; 
+         display: flex;
+         justify-content: center;
+     }
+     
+     .fin{
+         color: black;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     aside{display:none;} /* Ici, on n'affiche pas l'<aside> */
+}
+/* --> tablettes 768px et plus */
+@media (min-width: 768px){
+    .menu{
+        min-height: 500px;
+        text-align: center;
+        border: solid 2px black;
+        background-image: url("background.jpg");
+        background-repeat: no-repeat;
+        margin: auto 0px;
+        background-size: cover;
+        margin: 40px;
+        position: relative;
+     
+        
+     
+     
+     }
+     
+     h1,p{
+         color: white;
+     }
+     .fas{
+         line-height: 200px;
+         cursor: pointer;
+     }
+     
+     
+     
+     .texte1{
+         color: black;
+         text-align: center;
+        
+     }
+     .texte2{
+         color: black;
+         text-align: center;
+     }
+     .texte3{
+         color: black;
+         text-align: center;
+     }
+     .texte4{
+         color: black;
+         text-align: center;
+     }
+     
+     .resultat{
+         color: black;
+     
+     }
+     main{
+        margin: 0 15%;
+     
+     }
+     
+     
+     .peugeot{
+         display: flex;
+     }
+     
+     .audi{
+         display: flex;
+     }
+     
+     .opel{
+         display: flex;
+     }
+     
+     .ford{
+         display: flex;
+     }
+     
+     button{
+         background-color: green;
+         margin: 0 auto ;
+         display: block;
+     
+     }
+     
+     
+     /* footer*/
+     .agence {
+         width: 10%;
+         height: 30%; 
+         display: flex;
+         justify-content: center;
+     }
+     
+     .fin{
+         color: black;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     aside{display:none;} /* Ici, on n'affiche pas l'<aside> */
+}
+/* --> desktop 992px et plus */
+@media (min-width: 992px){
+   
+    .menu{
+        min-height: 500px;
+        text-align: center;
+        border: solid 2px black;
+        background-image: url("background.jpg");
+        background-repeat: no-repeat;
+        margin: auto 0px;
+        background-size: cover;
+        margin: 40px;
+        position: relative;
+     
+        
+     
+     
+     }
+     
+     h1,p{
+         color: white;
+     }
+     .fas{
+         line-height: 200px;
+         cursor: pointer;
+     }
+     
+     
+     
+     .texte1{
+         color: black;
+         text-align: center;
+        
+     }
+     .texte2{
+         color: black;
+         text-align: center;
+     }
+     .texte3{
+         color: black;
+         text-align: center;
+     }
+     .texte4{
+         color: black;
+         text-align: center;
+     }
+     
+     .resultat{
+         color: black;
+     
+     }
+     main{
+        margin: 0 15%;
+     
+     }
+     
+     
+     .peugeot{
+         display: flex;
+     }
+     
+     .audi{
+         display: flex;
+     }
+     
+     .opel{
+         display: flex;
+     }
+     
+     .ford{
+         display: flex;
+     }
+     
+     button{
+         background-color: green;
+         margin: 0 auto ;
+         display: block;
+     
+     }
+     
+     
+     /* footer*/
+     .agence {
+         width: 10%;
+         height: 30%; 
+         display: flex;
+         justify-content: center;
+     }
+     
+     .fin{
+         color: black;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     aside{display:none;} /* Ici, on n'affiche pas l'<aside> */
+}
+/* --> large desktop 1200px et plus */
+@media (min-width: 1200px){
+    .menu{
+        min-height: 500px;
+        text-align: center;
+        border: solid 2px black;
+        background-image: url("background.jpg");
+        background-repeat: no-repeat;
+        margin: auto 0px;
+        background-size: cover;
+        margin: 40px;
+        position: relative;
+     
+        
+     
+     
+     }
+     
+     h1,p{
+         color: white;
+     }
+     .fas{
+         line-height: 200px;
+         cursor: pointer;
+     }
+     
+     
+     
+     .texte1{
+         color: black;
+         text-align: center;
+        
+     }
+     .texte2{
+         color: black;
+         text-align: center;
+     }
+     .texte3{
+         color: black;
+         text-align: center;
+     }
+     .texte4{
+         color: black;
+         text-align: center;
+     }
+     
+     .resultat{
+         color: black;
+     
+     }
+     main{
+        margin: 0 15%;
+     
+     }
+     
+     
+     .peugeot{
+         display: flex;
+     }
+     
+     .audi{
+         display: flex;
+     }
+     
+     .opel{
+         display: flex;
+     }
+     
+     .ford{
+         display: flex;
+     }
+     
+     button{
+         background-color: green;
+         margin: 0 auto ;
+         display: block;
+     
+     }
+     
+     
+     /* footer*/
+     .agence {
+         width: 10%;
+         height: 30%; 
+         display: flex;
+         justify-content: center;
+     }
+     
+     .fin{
+         color: black;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     aside{display:none;} /* Ici, on n'affiche pas l'<aside> */
+}
